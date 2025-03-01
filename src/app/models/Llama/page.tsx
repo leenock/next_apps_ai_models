@@ -74,9 +74,9 @@ const ChatModel: React.FC = () => {
     setCurrentChat(updatedChat);
     setInput("");
     setIsLoading(true);
-
+// https://rneka-197-155-73-18.a.free.pinggy.link/v1/chat/completions
     try {
-      const response = await fetch("http://127.0.0.1:1234/v1/chat/completions", {
+      const response = await fetch("https://rneka-197-155-73-18.a.free.pinggy.link/v1/chat/completions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
