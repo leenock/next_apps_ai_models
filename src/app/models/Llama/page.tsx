@@ -77,7 +77,7 @@ const ChatModel: React.FC = () => {
 // https://e9f8-197-155-73-18.ngrok-free.app/v1/chat/completions
 //http://127.0.0.1:1234/v1/chat/completions
     try {
-      const response = await fetch("https://e9f8-197-155-73-18.ngrok-free.app/v1/chat/completions", {
+      const response = await fetch("https://b167-197-155-73-18.ngrok-free.app/v1/chat/completions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
